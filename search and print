@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(){
+	 int number[5]={5,4,8,9,4};
+	 int i,n;
+	  printf("enter the number   ");
+	  scanf("%d",&n);
+	  for(i=0;i<5;i++){
+  		if(number[i]==n){
+		  	printf("position found %d \n",i+1);
+		  }
+		  
+  	}	
+  	
+ 	
+}
+

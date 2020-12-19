@@ -1,0 +1,41 @@
+#include <stdio.h>
+void main()
+ {
+    int arrA[5], arrB[5], arrC[5];
+    int i,T=0,D=0,n;
+	
+   
+       printf("Input elements in the array :\n",n);
+       for(i=0;i<5;i++)
+            {
+	      printf("element - %d : ",i);
+	      scanf("%d",&arrA[i]);
+	    }
+
+    for(i=0;i<5;i++)
+    {
+	if (arrA[i]%2 == 0)
+	{
+	   arrB[T] = arrA[i];
+	   T++;
+	}
+	else
+	{
+	   arrC[D] = arrA[i];
+	   D++;
+	}
+    }
+
+    printf("\nThe Even elements are : \n");
+    for(i=0;i<T;i++)
+    {
+	printf("%d ",arrB[i]);
+    }
+
+    printf("\nThe Odd elements are :\n");
+    for(i=0;i<D;i++)
+    {
+	printf("%d ", arrC[i]);
+    }
+    printf("\n\n");	
+ }

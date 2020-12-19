@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+void main()
+{
+    int a[5];
+    int i,n, sum=0,avg=0;
+
+       printf("Input elements in the array :\n",n);
+       for(i=0;i<5;i++)
+        {
+	      printf("element - %d : ",i);
+	      scanf("%d",&a[i]);
+	    }
+
+    for(i=0; i<5; i++)
+    {
+        sum += a[i];
+        avg=sum/5;
+    }
+
+ printf("Sum of all elements in the array is : %d\n\n", sum);
+ printf("avg of  the array is : %d\n\n", avg);
+}
